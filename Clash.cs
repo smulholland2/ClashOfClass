@@ -51,7 +51,7 @@ namespace ClashApp
     {
         public static string Token = "foobar";
         public static string Scheme = "Bearer";
-        public static string ClanUri = "https://api.clashofclans.com/v1/clans/%23L80RY0QG";
+        public static string ClanUri = "https://api.clashofclans.com/v1/clans/%23YOURCLANTAG";
     }
 
     public static class HomeControllerRoute
