@@ -1,6 +1,9 @@
-/*
- Simple API implmentation for the Clash of Clans API. 
-*/
+/// <summary>
+/// Simple Class for Clash of Clans API consumption.
+/// </summary>
+/// <remarks>
+/// Line 60 must be changed to include your clans tag.
+/// </remarks>
 namespace ClashApp
 {
     public class ClanViewModel
