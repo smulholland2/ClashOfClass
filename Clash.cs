@@ -8,40 +8,55 @@ namespace ClashApp
 {
     public class ClanViewModel
     {
+        /// <summary>Your clans clan tag.</summary>
         public string Tag { get; set; }
 
+        /// <summary>The name of your clan.</summary>
         [Display(Name = "Clan Name")]
         public string ClanName { get; set; }
 
+        /// <summary>Your clans description. Set in game.</summary>
         public string Description { get; set; }
 
+        /// <summary>Your clans enrollment type.</summary>
         public Type Type { get; set; }
 
+        /// <summary>The level of your clan.</summary>
         [Display(Name = "Clan Level")]
         public string ClanLevel { get; set; }
 
+        /// <summary>Total experience of your clan.</summary>
         [Display(Name = "Clan Points")]
         public string ClanPoints { get; set; }
 
+        /// <summary>Trophies required to join the clan.</summary>
         [Display(Name = "Required Trophies")]
         public string RequiredTrophies { get; set; }
 
+        /// <summary>How often your clan goes to war.</summary>
         [Display(Name = "War Frequency")]
         public string WarFrequency { get; set; }
 
+        /// <summary>Current number of wars your clan has won in a row.</summary>
         [Display(Name = "Win Streak")]
         public string WarWinStreak { get; set; }
 
+        /// <summary>Total number of war wins you clan has earned.</summary>
         [Display(Name = "Wins")]
         public string WarWins { get; set; }
 
+        /// <summary>Total number of wars that eneded in a tie.</summary>
         [Display(Name = "Ties")]
         public string WarTies { get; set; }
+
+        /// <summary>Total number of wars your clan has lost.</summary>
         [Display(Name = "Losses")]
         public string WarLosses { get; set; }
 
+        /// <summary>A list of all your clans memebers.</summary>
         public string Members { get; set; }
 
+        /// <summary>The country or region your clan members are located.</summary>
         public string Location { get; set; }
 
     }
