@@ -1,3 +1,6 @@
+/*
+ Simple API implmentation for the Clash of Clans API. 
+*/
 namespace ClashApp
 {
     public class ClanViewModel
@@ -55,7 +58,7 @@ namespace ClashApp
     }
 
     public static class HomeControllerRoute
-    {        
+    {
         public const string GetIndex = ControllerName.Home + "GetIndex";
         public const string GetMembers = ControllerName.Home + "GetMembers";
         public const string GetWarLog = ControllerName.Home + "GetWarLog";
